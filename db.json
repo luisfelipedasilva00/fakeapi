@@ -1,11 +1,9 @@
 {
   "users": 
-  {
     [
      {"id": 1, "name": "Luis Felipe", "email": "luisfelipe@gmail.com", "password" : "123456"},
      {"id": 2, "name": "User", "email": "user@gmail.com", "password" : "123456"}
-    ]
-  },
+    ],
    "auth": {
     [
      {"id": 1, "name": "Luis Felipe", "login": "luisfelipe@gmail.com", "password" : "123456", "token": "123456"},
