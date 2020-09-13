@@ -1,106 +1,18 @@
 {
   "users": [
-  {
-     {"id": 1, "name": "Luis Felipe", "email": "luisfelipe@gmail.com", "password" : "123456"},
-     {"id": 2, "name": "User", "email": "user@gmail.com", "password" : "123456"}
-  }],
-   "auth": {
-     {"id": 1, "name": "Luis Felipe", "login": "luisfelipe@gmail.com", "password" : "123456", "token": "123456"},
-     {"id": 2, "name": "User", "login": "user@gmail.com", "password" : "123456", "token": "123456"}
-  },
-  "stores":
-  {
-    "docs": [
-      {
-        "_id": "5e8b47e2e4435d0e449fecc3",
-        "storeName": "CAD2 F-00",
-        "serverName": "mtzsql01.unidasul.local",
-        "databaseName": "UniAtacado",
-        "createdAt": "2020-04-06T15:16:50.259Z",
-        "changedAt": "2020-04-06T15:16:50.259Z",
-        "__v": 0
-      },
-      {
-        "_id": "5e8b47efe4435d0e449fecc4",
-        "storeName": "FILIAL-01",
-        "serverName": "f001srv01.filial.unidasul.local",
-        "databaseName": "SoftCorp",
-        "createdAt": "2020-04-06T15:17:03.430Z",
-        "changedAt": "2020-04-06T15:17:03.430Z",
-        "__v": 0
-      },
-      {
-        "_id": "5e8b4815e4435d0e449fecc5",
-        "storeName": "FILIAL-02",
-        "serverName": "f002srv01.filial.unidasul.local",
-        "databaseName": "SoftCorp",
-        "createdAt": "2020-04-06T15:17:41.402Z",
-        "changedAt": "2020-04-06T15:17:41.402Z",
-        "__v": 0
-      },
-      {
-        "_id": "5e8b481ee4435d0e449fecc6",
-        "storeName": "FILIAL-03",
-        "serverName": "f003srv01.filial.unidasul.local",
-        "databaseName": "SoftCorp",
-        "createdAt": "2020-04-06T15:17:50.611Z",
-        "changedAt": "2020-04-06T15:17:50.611Z",
-        "__v": 0
-      },
-      {
-        "_id": "5e8b4827e4435d0e449fecc7",
-        "storeName": "FILIAL-04",
-        "serverName": "f004srv01.filial.unidasul.local",
-        "databaseName": "SoftCorp",
-        "createdAt": "2020-04-06T15:17:59.065Z",
-        "changedAt": "2020-04-06T15:17:59.065Z",
-        "__v": 0
-      },
-      {
-        "_id": "5e8b4831e4435d0e449fecc8",
-        "storeName": "FILIAL-06",
-        "serverName": "f006srv01.filial.unidasul.local",
-        "databaseName": "SoftCorp",
-        "createdAt": "2020-04-06T15:18:09.510Z",
-        "changedAt": "2020-04-06T15:18:09.510Z",
-        "__v": 0
-      },
-      {
-        "_id": "5e8b483ae4435d0e449fecc9",
-        "storeName": "FILIAL-07",
-        "serverName": "f007srv01.filial.unidasul.local",
-        "databaseName": "SoftCorp",
-        "createdAt": "2020-04-06T15:18:18.454Z",
-        "changedAt": "2020-04-06T15:18:18.454Z",
-        "__v": 0
-      },
-      {
-        "_id": "5e8b4843e4435d0e449fecca",
-        "storeName": "FILIAL-08",
-        "serverName": "f008srv01.filial.unidasul.local",
-        "databaseName": "SoftCorp",
-        "createdAt": "2020-04-06T15:18:27.587Z",
-        "changedAt": "2020-04-06T15:18:27.587Z",
-        "__v": 0
-      },
-      {
-        "_id": "5e8b484de4435d0e449feccb",
-        "storeName": "FILIAL-09",
-        "serverName": "f009srv01.filial.unidasul.local",
-        "databaseName": "SoftCorp",
-        "createdAt": "2020-04-06T15:18:37.554Z",
-        "changedAt": "2020-04-06T15:18:37.554Z",
-        "__v": 0
-      },
-      {
-        "_id": "5e8b485ae4435d0e449feccc",
-        "storeName": "FILIAL-13",
-        "serverName": "f013srv01.filial.unidasul.local",
-        "databaseName": "SoftCorp",
-        "createdAt": "2020-04-06T15:18:50.101Z",
-        "changedAt": "2020-04-06T15:18:50.101Z",
-        "__v": 0
-      }
-    ]
+    { "id": 1, "titulo": "Entendendo o ES6", "url": "https://www.codeprestige.com.br/cursos/es6" },
+    { "id": 2, "titulo": "Produtividade Máxima com o VS Code", "url": "https://www.udemy.com/truques-vscode/" },
+    { "id": 3, "titulo": "Entendendo o ES7/ES8", "url": "https://www.codeprestige.com.br/cursos/es7-8" },
+    { "id": 4, "titulo": "React 16 Definitivo", "url": "https://www.udemy.com/react-16/" }
+  ],
+  "alunos": [
+    { "id": 1, "nome": "Marcela da Silva", "curso": 1 },
+    { "id": 2, "nome": "José Luiz Felipe", "curso": 2 },
+    { "id": 3, "nome": "Paulo Rogério", "curso": 3 },
+    { "id": 4, "nome": "Felipe da Cunha", "curso": 1 },
+    { "id": 5, "nome": "Luiza Cardoso Pereira", "curso": 1 }
+  ],
+  "empresa": {
+    "nome": "Code Prestige"
   }
 }
