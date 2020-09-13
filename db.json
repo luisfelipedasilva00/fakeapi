@@ -1,18 +1,545 @@
 {
   "users": [
-    { "id": 1, "titulo": "Entendendo o ES6", "url": "https://www.codeprestige.com.br/cursos/es6" },
-    { "id": 2, "titulo": "Produtividade Máxima com o VS Code", "url": "https://www.udemy.com/truques-vscode/" },
-    { "id": 3, "titulo": "Entendendo o ES7/ES8", "url": "https://www.codeprestige.com.br/cursos/es7-8" },
-    { "id": 4, "titulo": "React 16 Definitivo", "url": "https://www.udemy.com/react-16/" }
+    { "id": 1, "name": "Luis Felipe", "email": "luisfelipedasilva00@gmail.com", "password":"123456" },
+    { "id": 2, "name": "Admin", "email": "admin@gmail.com", "password":"123456" }
   ],
-  "alunos": [
-    { "id": 1, "nome": "Marcela da Silva", "curso": 1 },
-    { "id": 2, "nome": "José Luiz Felipe", "curso": 2 },
-    { "id": 3, "nome": "Paulo Rogério", "curso": 3 },
-    { "id": 4, "nome": "Felipe da Cunha", "curso": 1 },
-    { "id": 5, "nome": "Luiza Cardoso Pereira", "curso": 1 }
+  "auth": [
+    { "id": 1, "name": "Luis Felipe", "login": "luisfelipedasilva00@gmail.com", "password":"123456", "token" :"123456", "success": "true" },
+    { "id": 2, "name": "Admin", "login": "admin@gmail.com", "password":"123456", "token" :"123456", "success": "true"  }
   ],
-  "empresa": {
-    "nome": "Code Prestige"
-  }
+  "stores": [
+    { "id": 1, "name": "Luis Felipe", "login": "luisfelipedasilva00@gmail.com", "password":"123456", "token" :"123456", "success": "true" },
+    { "id": 2, "name": "Admin", "login": "admin@gmail.com", "password":"123456", "token" :"123456", "success": "true"  }
+  ],
+   "lots": [
+    {"id": "1", "lotDescription": "Geral"},
+    {"id": "2", "lotDescription": "Cereais"},
+    {"id": "3", "lotDescription": "Laticíneos"},
+    {"id": "4", "lotDescription": "Bebidas"},
+    {"id": "5", "lotDescription": "Bazar"}
+  ],
+  "stores": [
+    {
+      "_id": "5e8b47e2e4435d0e449fecc3",
+      "storeName": "CAD2 F-00",
+      "serverName": "mtzsql01.unidasul.local",
+      "databaseName": "UniAtacado",
+      "createdAt": "2020-04-06T15:16:50.259Z",
+      "changedAt": "2020-04-06T15:16:50.259Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b47efe4435d0e449fecc4",
+      "storeName": "FILIAL-01",
+      "serverName": "f001srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:17:03.430Z",
+      "changedAt": "2020-04-06T15:17:03.430Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b4815e4435d0e449fecc5",
+      "storeName": "FILIAL-02",
+      "serverName": "f002srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:17:41.402Z",
+      "changedAt": "2020-04-06T15:17:41.402Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b481ee4435d0e449fecc6",
+      "storeName": "FILIAL-03",
+      "serverName": "f003srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:17:50.611Z",
+      "changedAt": "2020-04-06T15:17:50.611Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b4827e4435d0e449fecc7",
+      "storeName": "FILIAL-04",
+      "serverName": "f004srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:17:59.065Z",
+      "changedAt": "2020-04-06T15:17:59.065Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b4831e4435d0e449fecc8",
+      "storeName": "FILIAL-06",
+      "serverName": "f006srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:18:09.510Z",
+      "changedAt": "2020-04-06T15:18:09.510Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b483ae4435d0e449fecc9",
+      "storeName": "FILIAL-07",
+      "serverName": "f007srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:18:18.454Z",
+      "changedAt": "2020-04-06T15:18:18.454Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b4843e4435d0e449fecca",
+      "storeName": "FILIAL-08",
+      "serverName": "f008srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:18:27.587Z",
+      "changedAt": "2020-04-06T15:18:27.587Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b484de4435d0e449feccb",
+      "storeName": "FILIAL-09",
+      "serverName": "f009srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:18:37.554Z",
+      "changedAt": "2020-04-06T15:18:37.554Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b485ae4435d0e449feccc",
+      "storeName": "FILIAL-13",
+      "serverName": "f013srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:18:50.101Z",
+      "changedAt": "2020-04-06T15:18:50.101Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b4870e4435d0e449feccd",
+      "storeName": "FILIAL-14",
+      "serverName": "f014srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:19:12.760Z",
+      "changedAt": "2020-04-06T15:19:12.760Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b4877e4435d0e449fecce",
+      "storeName": "FILIAL-15",
+      "serverName": "f015srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:19:19.998Z",
+      "changedAt": "2020-04-06T15:19:19.998Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b487fe4435d0e449feccf",
+      "storeName": "FILIAL-16",
+      "serverName": "f016srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:19:27.823Z",
+      "changedAt": "2020-04-06T15:19:27.823Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b4889e4435d0e449fecd0",
+      "storeName": "FILIAL-17",
+      "serverName": "f017srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:19:37.046Z",
+      "changedAt": "2020-04-06T15:19:37.046Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b4890e4435d0e449fecd1",
+      "storeName": "FILIAL-19",
+      "serverName": "f019srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:19:44.712Z",
+      "changedAt": "2020-04-06T15:19:44.712Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b489ae4435d0e449fecd2",
+      "storeName": "FILIAL-21",
+      "serverName": "f021srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:19:54.264Z",
+      "changedAt": "2020-04-06T15:19:54.264Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b48a3e4435d0e449fecd3",
+      "storeName": "FILIAL-22",
+      "serverName": "f022srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:20:03.987Z",
+      "changedAt": "2020-04-06T15:20:03.987Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b48abe4435d0e449fecd4",
+      "storeName": "FILIAL-23",
+      "serverName": "f023srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:20:11.930Z",
+      "changedAt": "2020-04-06T15:20:11.930Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b48b4e4435d0e449fecd5",
+      "storeName": "FILIAL-24",
+      "serverName": "f024srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:20:20.707Z",
+      "changedAt": "2020-04-06T15:20:20.707Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b48bde4435d0e449fecd6",
+      "storeName": "FILIAL-25",
+      "serverName": "f025srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:20:29.994Z",
+      "changedAt": "2020-04-06T15:20:29.994Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b48c7e4435d0e449fecd7",
+      "storeName": "FILIAL-26",
+      "serverName": "f026srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:20:39.602Z",
+      "changedAt": "2020-04-06T15:20:39.602Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b48cfe4435d0e449fecd8",
+      "storeName": "FILIAL-27",
+      "serverName": "f027srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:20:47.528Z",
+      "changedAt": "2020-04-06T15:20:47.528Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b48d9e4435d0e449fecd9",
+      "storeName": "FILIAL-28",
+      "serverName": "f028srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:20:57.560Z",
+      "changedAt": "2020-04-06T15:20:57.560Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b48e3e4435d0e449fecda",
+      "storeName": "FILIAL-29",
+      "serverName": "f029srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:21:07.610Z",
+      "changedAt": "2020-04-06T15:21:07.610Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b48ece4435d0e449fecdb",
+      "storeName": "FILIAL-30",
+      "serverName": "f030srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:21:16.114Z",
+      "changedAt": "2020-04-06T15:21:16.114Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b48f3e4435d0e449fecdc",
+      "storeName": "FILIAL-31",
+      "serverName": "f031srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:21:23.862Z",
+      "changedAt": "2020-04-06T15:21:23.862Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b48fde4435d0e449fecdd",
+      "storeName": "FILIAL-32",
+      "serverName": "f032srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:21:33.184Z",
+      "changedAt": "2020-04-06T15:21:33.184Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b4908e4435d0e449fecde",
+      "storeName": "FILIAL-34",
+      "serverName": "f034srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:21:44.673Z",
+      "changedAt": "2020-04-06T15:21:44.673Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b4910e4435d0e449fecdf",
+      "storeName": "FILIAL-35",
+      "serverName": "f035srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:21:52.449Z",
+      "changedAt": "2020-04-06T15:21:52.449Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b4917e4435d0e449fece0",
+      "storeName": "FILIAL-36",
+      "serverName": "f036srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:21:59.689Z",
+      "changedAt": "2020-04-06T15:21:59.689Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b491ee4435d0e449fece1",
+      "storeName": "FILIAL-37",
+      "serverName": "f037srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:22:06.813Z",
+      "changedAt": "2020-04-06T15:22:06.813Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b4925e4435d0e449fece2",
+      "storeName": "FILIAL-38",
+      "serverName": "f038srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:22:13.946Z",
+      "changedAt": "2020-04-06T15:22:13.946Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b492de4435d0e449fece3",
+      "storeName": "FABRICA F-39",
+      "serverName": "mtzsql01.unidasul.local",
+      "databaseName": "Unifabrica",
+      "createdAt": "2020-04-06T15:22:21.594Z",
+      "changedAt": "2020-04-06T15:22:21.594Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b4935e4435d0e449fece4",
+      "storeName": "CAD1 F-41",
+      "serverName": "mtzsql01.unidasul.local",
+      "databaseName": "UniVarejo",
+      "createdAt": "2020-04-06T15:22:29.753Z",
+      "changedAt": "2020-04-06T15:22:29.753Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b493ee4435d0e449fece5",
+      "storeName": "FILIAL-42",
+      "serverName": "f042srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:22:38.352Z",
+      "changedAt": "2020-04-06T15:22:38.352Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b4946e4435d0e449fece6",
+      "storeName": "FILIAL-43",
+      "serverName": "f043srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:22:46.242Z",
+      "changedAt": "2020-04-06T15:22:46.242Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b494ee4435d0e449fece7",
+      "storeName": "CD PADARIA F-44",
+      "serverName": "f044srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:22:54.177Z",
+      "changedAt": "2020-04-06T15:22:54.177Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b4956e4435d0e449fece8",
+      "storeName": "FILIAL-45",
+      "serverName": "f045srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:23:02.345Z",
+      "changedAt": "2020-04-06T15:23:02.345Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b495de4435d0e449fece9",
+      "storeName": "FILIAL-46",
+      "serverName": "f046srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:23:09.856Z",
+      "changedAt": "2020-04-06T15:23:09.856Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b4965e4435d0e449fecea",
+      "storeName": "FILIAL-48",
+      "serverName": "f048srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:23:17.108Z",
+      "changedAt": "2020-04-06T15:23:17.108Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b496ce4435d0e449feceb",
+      "storeName": "FILIAL-49",
+      "serverName": "f049srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:23:24.856Z",
+      "changedAt": "2020-04-06T15:23:24.856Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b4976e4435d0e449fecec",
+      "storeName": "FILIAL-50",
+      "serverName": "f050srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:23:34.962Z",
+      "changedAt": "2020-04-06T15:23:34.962Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b497ee4435d0e449feced",
+      "storeName": "CD CARNES F-51",
+      "serverName": "f051srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:23:42.137Z",
+      "changedAt": "2020-04-06T15:23:42.137Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b4986e4435d0e449fecee",
+      "storeName": "FILIAL-52",
+      "serverName": "f052srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:23:50.392Z",
+      "changedAt": "2020-04-06T15:23:50.392Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b4991e4435d0e449fecef",
+      "storeName": "FILIAL-53",
+      "serverName": "f053srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:24:01.249Z",
+      "changedAt": "2020-04-06T15:24:01.249Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b4998e4435d0e449fecf0",
+      "storeName": "FILIAL-54",
+      "serverName": "f054srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:24:08.227Z",
+      "changedAt": "2020-04-06T15:24:08.227Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b499fe4435d0e449fecf1",
+      "storeName": "FILIAL-55",
+      "serverName": "f055srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:24:15.962Z",
+      "changedAt": "2020-04-06T15:24:15.962Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b49a7e4435d0e449fecf2",
+      "storeName": "CD PERECIVEIS F-56",
+      "serverName": "f056srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:24:23.002Z",
+      "changedAt": "2020-04-06T15:24:23.002Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b49aee4435d0e449fecf3",
+      "storeName": "FILIAL-58",
+      "serverName": "f058srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:24:30.475Z",
+      "changedAt": "2020-04-06T15:24:30.475Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b49bce4435d0e449fecf4",
+      "storeName": "FILIAL-59",
+      "serverName": "f059srv01.filial.unidasul.local",
+      "databaseName": "SoftCorp",
+      "createdAt": "2020-04-06T15:24:44.311Z",
+      "changedAt": "2020-04-06T15:24:44.311Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b49c7e4435d0e449fecf5",
+      "storeName": "FILIAL-60",
+      "serverName": "f060srv01.filial.unidasul.local",
+      "databaseName": "UniVarejo",
+      "createdAt": "2020-04-06T15:24:55.342Z",
+      "changedAt": "2020-04-06T15:24:55.342Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b49cfe4435d0e449fecf6",
+      "storeName": "CD PERECIVEIS F-62",
+      "serverName": "f062srv01.filial.unidasul.local",
+      "databaseName": "UniFilial",
+      "createdAt": "2020-04-06T15:25:03.640Z",
+      "changedAt": "2020-04-06T15:25:03.640Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b49d6e4435d0e449fecf7",
+      "storeName": "CD CACH F-63 ATAC",
+      "serverName": "f063srv01.unidasul.local",
+      "databaseName": "UniAtacado",
+      "createdAt": "2020-04-06T15:25:10.830Z",
+      "changedAt": "2020-04-06T15:25:10.830Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b49e3e4435d0e449fecf8",
+      "storeName": "CD CACH F-64 VARJ",
+      "serverName": "f064srv01.unidasul.local",
+      "databaseName": "UniVarejo",
+      "createdAt": "2020-04-06T15:25:23.218Z",
+      "changedAt": "2020-04-06T15:25:23.218Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b49ebe4435d0e449fecf9",
+      "storeName": "CD FATIADOS F-65",
+      "serverName": "f065srv01.filial.unidasul.local",
+      "databaseName": "UniVarejo",
+      "createdAt": "2020-04-06T15:25:31.891Z",
+      "changedAt": "2020-04-06T15:25:31.891Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b49f3e4435d0e449fecfa",
+      "storeName": "FILIAL-67",
+      "serverName": "f067srv01.filial.unidasul.local",
+      "databaseName": "UniVarejo",
+      "createdAt": "2020-04-06T15:25:39.649Z",
+      "changedAt": "2020-04-06T15:25:39.649Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b49fae4435d0e449fecfb",
+      "storeName": "ATACADO CAD II - 68",
+      "serverName": "mtzsql01.unidasul.local",
+      "databaseName": "UniCdAtacado",
+      "createdAt": "2020-04-06T15:25:46.636Z",
+      "changedAt": "2020-04-06T15:25:46.636Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e8b4a01e4435d0e449fecfc",
+      "storeName": "CD F-69 VARJ",
+      "serverName": "mtzsql01.unidasul.local",
+      "databaseName": "UniCdVarejo",
+      "createdAt": "2020-04-06T15:25:53.734Z",
+      "changedAt": "2020-04-06T15:25:53.734Z",
+      "__v": 0
+    }
+  ]
 }
