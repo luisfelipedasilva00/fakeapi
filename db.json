@@ -1,11 +1,11 @@
 {
   "users": [
-    { "id": 1, "name": "Luis Felipe", "email": "luisfelipedasilva00@gmail.com", "password":"123456" },
+    { "id": 1, "name": "Luis Felipe", "email": "luisfelipedasilva00@gmail.com", "password":"123456" },    
     { "id": 2, "name": "Admin", "email": "admin@gmail.com", "password":"123456" }
   ],
   "auth": [
-    { "id": 1, "name": "Luis Felipe", "login": "luisfelipedasilva00@gmail.com", "password":"123456", "token" :"123456", "success": "true" },
-    { "id": 2, "name": "Admin", "login": "admin@gmail.com", "password":"123456", "token" :"123456", "success": "true"  }
+    { "id": 1, "name": "Luis Felipe", "login": "felipe", "password":"123", "token" :"123456", "success": "true" },
+    { "id": 2, "name": "Admin", "login": "admin", "password":"123", "token" :"123456", "success": "true"  }
   ],
   "stores": [
     { "id": 1, "name": "Luis Felipe", "login": "luisfelipedasilva00@gmail.com", "password":"123456", "token" :"123456", "success": "true" },
