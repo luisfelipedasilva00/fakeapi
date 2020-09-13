@@ -1,0 +1,100 @@
+{
+  "users": {
+      "id": 1, "name": "Luis Felipe", "email": "luisfelipe@gmail.com", "password" : "123456"
+  },
+  "stores":
+  {
+    "docs": [
+      {
+        "_id": "5e8b47e2e4435d0e449fecc3",
+        "storeName": "CAD2 F-00",
+        "serverName": "mtzsql01.unidasul.local",
+        "databaseName": "UniAtacado",
+        "createdAt": "2020-04-06T15:16:50.259Z",
+        "changedAt": "2020-04-06T15:16:50.259Z",
+        "__v": 0
+      },
+      {
+        "_id": "5e8b47efe4435d0e449fecc4",
+        "storeName": "FILIAL-01",
+        "serverName": "f001srv01.filial.unidasul.local",
+        "databaseName": "SoftCorp",
+        "createdAt": "2020-04-06T15:17:03.430Z",
+        "changedAt": "2020-04-06T15:17:03.430Z",
+        "__v": 0
+      },
+      {
+        "_id": "5e8b4815e4435d0e449fecc5",
+        "storeName": "FILIAL-02",
+        "serverName": "f002srv01.filial.unidasul.local",
+        "databaseName": "SoftCorp",
+        "createdAt": "2020-04-06T15:17:41.402Z",
+        "changedAt": "2020-04-06T15:17:41.402Z",
+        "__v": 0
+      },
+      {
+        "_id": "5e8b481ee4435d0e449fecc6",
+        "storeName": "FILIAL-03",
+        "serverName": "f003srv01.filial.unidasul.local",
+        "databaseName": "SoftCorp",
+        "createdAt": "2020-04-06T15:17:50.611Z",
+        "changedAt": "2020-04-06T15:17:50.611Z",
+        "__v": 0
+      },
+      {
+        "_id": "5e8b4827e4435d0e449fecc7",
+        "storeName": "FILIAL-04",
+        "serverName": "f004srv01.filial.unidasul.local",
+        "databaseName": "SoftCorp",
+        "createdAt": "2020-04-06T15:17:59.065Z",
+        "changedAt": "2020-04-06T15:17:59.065Z",
+        "__v": 0
+      },
+      {
+        "_id": "5e8b4831e4435d0e449fecc8",
+        "storeName": "FILIAL-06",
+        "serverName": "f006srv01.filial.unidasul.local",
+        "databaseName": "SoftCorp",
+        "createdAt": "2020-04-06T15:18:09.510Z",
+        "changedAt": "2020-04-06T15:18:09.510Z",
+        "__v": 0
+      },
+      {
+        "_id": "5e8b483ae4435d0e449fecc9",
+        "storeName": "FILIAL-07",
+        "serverName": "f007srv01.filial.unidasul.local",
+        "databaseName": "SoftCorp",
+        "createdAt": "2020-04-06T15:18:18.454Z",
+        "changedAt": "2020-04-06T15:18:18.454Z",
+        "__v": 0
+      },
+      {
+        "_id": "5e8b4843e4435d0e449fecca",
+        "storeName": "FILIAL-08",
+        "serverName": "f008srv01.filial.unidasul.local",
+        "databaseName": "SoftCorp",
+        "createdAt": "2020-04-06T15:18:27.587Z",
+        "changedAt": "2020-04-06T15:18:27.587Z",
+        "__v": 0
+      },
+      {
+        "_id": "5e8b484de4435d0e449feccb",
+        "storeName": "FILIAL-09",
+        "serverName": "f009srv01.filial.unidasul.local",
+        "databaseName": "SoftCorp",
+        "createdAt": "2020-04-06T15:18:37.554Z",
+        "changedAt": "2020-04-06T15:18:37.554Z",
+        "__v": 0
+      },
+      {
+        "_id": "5e8b485ae4435d0e449feccc",
+        "storeName": "FILIAL-13",
+        "serverName": "f013srv01.filial.unidasul.local",
+        "databaseName": "SoftCorp",
+        "createdAt": "2020-04-06T15:18:50.101Z",
+        "changedAt": "2020-04-06T15:18:50.101Z",
+        "__v": 0
+      }
+    ]
+  }
+}
