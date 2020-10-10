@@ -1,112 +1,108 @@
-{
-  "users": [
-    { "id": 1, "name": "Luis Felipe", "email": "luisfelipedasilva00@gmail.com", "password":"123456" },    
-    { "id": 2, "name": "Admin", "email": "admin@gmail.com", "password":"123456" }
+  {
+  "usuarios": [
+    { "id": 1, "nome": "Luis Felipe", "email": "luisfelipedasilva00@gmail.com", "senha":"123456" },    
+    { "id": 2, "nome": "Admin", "email": "admin@gmail.com", "senha":"123456" }
   ],
-  "auth": [
-    { "id": 1, "name": "Luis Felipe", "login": "felipe", "password":"123", "token" :"123456", "success": "true" },
-    { "id": 2, "name": "Admin", "login": "admin", "password":"123", "token" :"123456", "success": "true"  }
+  "autenticacao": [
+    { "id": 1, "nome": "Luis Felipe", "usuario": "felipe", "senha":"123", "token" :"123456", "success": "true" },
+    { "id": 2, "nome": "Admin", "usuario": "admin", "senha":"123", "token" :"123456", "success": "true"  }
   ],
-  "stores": [
-    { "id": 1, "name": "Luis Felipe", "login": "luisfelipedasilva00@gmail.com", "password":"123456", "token" :"123456", "success": "true" },
-    { "id": 2, "name": "Admin", "login": "admin@gmail.com", "password":"123456", "token" :"123456", "success": "true"  }
+  "lotes": [
+    {"id": "1", "descricao": "Geral"},
+    {"id": "2", "descricao": "Cereais"},
+    {"id": "3", "descricao": "Laticíneos"},
+    {"id": "4", "descricao": "Bebidas"},
+    {"id": "5", "descricao": "Bazar"}
   ],
-   "lots": [
-    {"id": "1", "lotDescription": "Geral"},
-    {"id": "2", "lotDescription": "Cereais"},
-    {"id": "3", "lotDescription": "Laticíneos"},
-    {"id": "4", "lotDescription": "Bebidas"},
-    {"id": "5", "lotDescription": "Bazar"}
-  ],
-  "stores": [
+  "filiais": [
     {
       "id": "5e8b47e2e4435d0e449fecc3",
-      "storeName": "CAD2 F-00",
-      "serverName": "servidor.unidasul.local",
-      "databaseName": "Unidasul",
-      "createdAt": "2020-04-06T15:16:50.259Z",
-      "changedAt": "2020-04-06T15:16:50.259Z",
+      "nome": "CAD2 F-00",
+      "servidor": "servidor.unidasul.local",
+      "banco": "Unidasul",
+      "dataCriacao": "2020-04-06T15:16:50.259Z",
+      "dataAlteracao": "2020-04-06T15:16:50.259Z",
       "__v": 0
     },
     {
       "id": "5e8b47efe4435d0e449fecc4",
-      "storeName": "FILIAL-01",
-      "serverName": "servidor.filial.unidasul.local",
-      "databaseName": "Unidasul",
-      "createdAt": "2020-04-06T15:17:03.430Z",
-      "changedAt": "2020-04-06T15:17:03.430Z",
+      "nome": "FILIAL-01",
+      "servidor": "servidor.filial.unidasul.local",
+      "banco": "Unidasul",
+      "dataCriacao": "2020-04-06T15:17:03.430Z",
+      "dataAlteracao": "2020-04-06T15:17:03.430Z",
       "__v": 0
     },
     {
       "id": "5e8b4815e4435d0e449fecc5",
-      "storeName": "FILIAL-02",
-      "serverName": "servidor.filial.unidasul.local",
-      "databaseName": "Unidasul",
-      "createdAt": "2020-04-06T15:17:41.402Z",
-      "changedAt": "2020-04-06T15:17:41.402Z",
+      "nome": "FILIAL-02",
+      "servidor": "servidor.filial.unidasul.local",
+      "banco": "Unidasul",
+      "dataCriacao": "2020-04-06T15:17:41.402Z",
+      "dataAlteracao": "2020-04-06T15:17:41.402Z",
       "__v": 0
     },
     {
       "id": "5e8b481ee4435d0e449fecc6",
-      "storeName": "FILIAL-03",
-      "serverName": "servidor.filial.unidasul.local",
-      "databaseName": "Unidasul",
-      "createdAt": "2020-04-06T15:17:50.611Z",
-      "changedAt": "2020-04-06T15:17:50.611Z",
+      "nome": "FILIAL-03",
+      "servidor": "servidor.filial.unidasul.local",
+      "banco": "Unidasul",
+      "dataCriacao": "2020-04-06T15:17:50.611Z",
+      "dataAlteracao": "2020-04-06T15:17:50.611Z",
       "__v": 0
     },
     {
       "id": "5e8b4827e4435d0e449fecc7",
-      "storeName": "FILIAL-04",
-      "serverName": "servidor.filial.unidasul.local",
-      "databaseName": "Unidasul",
-      "createdAt": "2020-04-06T15:17:59.065Z",
-      "changedAt": "2020-04-06T15:17:59.065Z",
+      "nome": "FILIAL-04",
+      "servidor": "servidor.filial.unidasul.local",
+      "banco": "Unidasul",
+      "dataCriacao": "2020-04-06T15:17:59.065Z",
+      "dataAlteracao": "2020-04-06T15:17:59.065Z",
       "__v": 0
     },
     {
       "id": "5e8b4831e4435d0e449fecc8",
-      "storeName": "FILIAL-06",
-      "serverName": "servidor.filial.unidasul.local",
-      "databaseName": "Unidasul",
-      "createdAt": "2020-04-06T15:18:09.510Z",
-      "changedAt": "2020-04-06T15:18:09.510Z",
+      "nome": "FILIAL-06",
+      "servidor": "servidor.filial.unidasul.local",
+      "banco": "Unidasul",
+      "dataCriacao": "2020-04-06T15:18:09.510Z",
+      "dataAlteracao": "2020-04-06T15:18:09.510Z",
       "__v": 0
     },
     {
       "id": "5e8b483ae4435d0e449fecc9",
-      "storeName": "FILIAL-07",
-      "serverName": "servidor.filial.unidasul.local",
-      "databaseName": "Unidasul",
-      "createdAt": "2020-04-06T15:18:18.454Z",
-      "changedAt": "2020-04-06T15:18:18.454Z",
+      "nome": "FILIAL-07",
+      "servidor": "servidor.filial.unidasul.local",
+      "banco": "Unidasul",
+      "dataCriacao": "2020-04-06T15:18:18.454Z",
+      "dataAlteracao": "2020-04-06T15:18:18.454Z",
       "__v": 0
     },
     {
       "id": "5e8b4843e4435d0e449fecca",
-      "storeName": "FILIAL-08",
-      "serverName": "servidor.filial.unidasul.local",
-      "databaseName": "Unidasul",
-      "createdAt": "2020-04-06T15:18:27.587Z",
-      "changedAt": "2020-04-06T15:18:27.587Z",
+      "nome": "FILIAL-08",
+      "servidor": "servidor.filial.unidasul.local",
+      "banco": "Unidasul",
+      "dataCriacao": "2020-04-06T15:18:27.587Z",
+      "dataAlteracao": "2020-04-06T15:18:27.587Z",
       "__v": 0
     },
     {
       "id": "5e8b484de4435d0e449feccb",
-      "storeName": "FILIAL-09",
-      "serverName": "servidor.filial.unidasul.local",
-      "databaseName": "Unidasul",
-      "createdAt": "2020-04-06T15:18:37.554Z",
-      "changedAt": "2020-04-06T15:18:37.554Z",
+      "nome": "FILIAL-09",
+      "servidor": "servidor.filial.unidasul.local",
+      "banco": "Unidasul",
+      "dataCriacao": "2020-04-06T15:18:37.554Z",
+      "dataAlteracao": "2020-04-06T15:18:37.554Z",
       "__v": 0
     },
     {
       "id": "5e8b485ae4435d0e449feccc",
-      "storeName": "FILIAL-13",
-      "serverName": "servidor.filial.unidasul.local",
-      "databaseName": "Unidasul",
-      "createdAt": "2020-04-06T15:18:50.101Z",
-      "changedAt": "2020-04-06T15:18:50.101Z",
+      "nome": "FILIAL-13",
+      "servidor": "servidor.filial.unidasul.local",
+      "banco": "Unidasul",
+      "dataCriacao": "2020-04-06T15:18:50.101Z",
+      "dataAlteracao": "2020-04-06T15:18:50.101Z",
       "__v": 0
     }
   ]
